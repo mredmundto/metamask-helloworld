@@ -31,7 +31,7 @@
           window.web3 = new Web3(web3.currentProvider);
           document.getElementById('currentAddress').innerHTML = 'INFO ----- signed in address in metamask: ' + web3.eth.accounts[0] + ' ----- web3 version: ' + web3.version.api + '----- current crowdsale address: ' + contractAddress
       } else {
-          window.alert("No web3 detected. This site is a Web3 Dapp - to proceed you will need to get Metamask - https://metamask.io/ \nTo serve this via a web server - chrome disabled metamask if this is loaded from file system, check out mamp - https://www.mamp.info/en/");
+          window.alert("No web3 detected. This site is a Web3 Dapp - to proceed you will need to get Metamask - https://metamask.io/ \nTo serve this via a web server - chrome disabled metamask if this is loaded from file system, in the project folder / npm install / npm start / go to localhost:3000");
       }
     }
     function send() {
